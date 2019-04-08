@@ -1,0 +1,13 @@
+header {
+    background-color: white;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+ul li {
+    margin-left: auto;
+    display: inline;
+}
+
