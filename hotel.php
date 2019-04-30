@@ -9,7 +9,15 @@
             <div id="upper">
                 <ul class='list'>
                     <li><a href="#">Help</a></li>
-                    <li><a href="#">Login/Join in</a></li>
+                    <li>
+                        <?php if (isset($_SESSION['username'])) : ?>
+                        <li><a href="index.php">Welcome,<?php echo $_SESSION['username']; ?></a></li>
+                         
+                        <?php else: ?>
+                    <li><a href="signin.php">Log-in</a></li>
+                    <li><a href="signup.php">Sign-up</a></li>
+                        <?php endif ?>
+                    </li>
                     <li><a href="#">Reserve</a></li>
                 </ul>
                 </div>
@@ -21,7 +29,7 @@
             <ul class="menu">
                 <li><a href="#">Overview</a></li>
                 <li><a href="#">Rooms</a></li>
-                <li><a href="#">Offers</a></li>
+                <li><a href="offerings.php">Lodging</a></li>
                 <li><a href="#">Meetings</a></li>
                 <li><a href="#">Employees</a></li>
             </ul>
