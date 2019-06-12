@@ -1,0 +1,142 @@
+#bgk {
+    background-color:#000066;
+    width:100%;
+    height:200px;
+}   
+
+.heading {
+    font-family:proxima-nova,Helvetica,Arial,sans-serif;
+    font-size:65px;
+    padding-top:60px;
+    color:#ffffff;
+    margin-top:0px;
+    padding-left:90px;
+    
+}
+
+#upper {
+    width:100%;
+    height:50px;
+    background-color:#000066;
+    text-decoration: none;
+   
+    
+}
+
+.list li {
+    list-style-type: none;
+    font-size: 20px;
+    margin-right:30px;
+    margin-top:0px;
+    padding-right:20px;
+    float:left;
+    color:#ffffff;
+}
+
+.list {
+    float:right;
+    margin-right:30px;
+    padding-left:20px;
+    color:#ffffff;
+    
+}
+
+.list li:hover {
+    background: #708090;
+}
+
+.list li a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+#navigation {
+    width:100%;
+    height:80px;
+    margin-top:-16px;
+    background-color:#f5f5f5;
+    padding-top:30px;
+    text-align: center;
+    
+}
+
+.menu li {
+    list-style:none;
+    float:left;
+    margin-left:170px;
+    text-align: center;
+    font-size:25px;
+    margin-top:-20px;
+    cursor:pointer;
+    height:80px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu li a {
+    text-decoration:none;
+    color:#3d7e9a;
+    width:40px;
+}
+
+.menu li:hover{
+    background-color:#add8e6;
+    height:85px;
+        
+}
+
+.room {
+    border:1px solid #F00;
+    width:500px; 
+    height:450px;
+    float: right;
+    margin: 56px;
+}
+
+.div0 {
+    width:100%;
+    height:100px;
+    background-color:#272727;
+    margin-top:15px;
+
+}
+
+.div1 {
+    width:100%;
+    height:100px;
+    background-color:#272727;
+    margin-top:15px;
+}
+
+.div1 h3 {
+  padding-top:40px;
+    font-family:monospace, sans-serif;
+    font-size:36px;
+    color:#a29061;
+}
+
+.div2 {
+    width:100%;
+    height:100px;   
+    background-color:#272727;
+    margin-top:15px;
+}
+.div3 {
+    width:100%;
+    height:100px;
+    background-color:#272727;
+    margin-top:15px;
+}
+.div4 {
+    width:100%;
+    height:100px;
+    background-color:#272727;
+    margin-top:15px;
+}
+.div5 {
+    width:100%;
+    height:100px;
+    background-color:#272727;
+    margin-top:15px;
+}
+    
